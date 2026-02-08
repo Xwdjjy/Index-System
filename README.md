@@ -1,6 +1,7 @@
 # 📋 索引系统 (Index System)
 
 这是从 [Xwdjjy.github.io](https://github.com/Xwdjjy/Xwdjjy.github.io) 项目中分离出来的独立索引系统。该系统提供了一个完整的、高度可配置的索引和文件管理解决方案。
+更多请看https://github.com/Xwdjjy/Xwdjjy.github.io/tree/main/src/docs
 
 ## 📁 目录结构
 
@@ -11,12 +12,10 @@
 ├── QUICK_REFERENCE.md            # ⚡ 快速参考
 ├── js/
 │   └── index-manager.js          # ⚙️ 动态加载脚本
-└── docs/
-    ├── INDEX_GUIDE.md            # 📖 详细使用指南
-    ├── WORKFLOW_DIAGRAM.md       # 🔄 工作流程图解
-    ├── IMPLEMENTATION_SUMMARY.md # 📋 实现总结
-    ├── COMPLETION_CHECKLIST.md   # ✅ 完成检查清单
-    └── START_HERE.md             # � 入门指南
+├── GETTING_STARTED.md            # 🚀 开始使用
+├── DIRECTORY_STRUCTURE.md        # 项目树形结构
+├── INTERGRATION.md               # 集成指南 (Integration Guide)
+├── License
 ```
 
 ## 🚀 快速开始
@@ -66,10 +65,6 @@ git push origin main
 | 文档 | 用途 | 时间 |
 |------|------|------|
 | **QUICK_REFERENCE.md** | 快速参考和常见错误排查 | 5分钟 |
-| **docs/INDEX_GUIDE.md** | 详细使用指南和高级功能 | 20分钟 |
-| **docs/WORKFLOW_DIAGRAM.md** | 系统架构和工作流程 | 15分钟 |
-| **docs/IMPLEMENTATION_SUMMARY.md** | 实现总结和功能列表 | 10分钟 |
-| **docs/COMPLETION_CHECKLIST.md** | 部署清单和故障排除 | 5分钟 |
 
 ## 🎯 核心文件
 
@@ -109,7 +104,6 @@ git push origin main
         ├─ 索引页面 (index.html)
         ├─ 条目数据 (index.json)
         ├─ 脚本系统 (js/)
-        ├─ 文档说明 (docs/)
         └─ 快速参考 (QUICK_REFERENCE.md)
 ```
 
@@ -152,10 +146,7 @@ A: 查看 `docs/INDEX_GUIDE.md` 的高级用法部分
 ## 📖 详细文档
 
 - 快速开始：QUICK_REFERENCE.md
-- 使用指南：docs/INDEX_GUIDE.md
-- 系统架构：docs/WORKFLOW_DIAGRAM.md
-- 实现细节：docs/IMPLEMENTATION_SUMMARY.md
-- 部署上线：docs/COMPLETION_CHECKLIST.md
+更多指南请参考https://github.com/Xwdjjy/Xwdjjy.github.io/tree/main/src/docs
 
 ## ✅ 系统独立性
 
